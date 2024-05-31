@@ -1,0 +1,352 @@
+[2021-06-16 01:16:04,507][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Application started. Press Ctrl+C to shut down.
+[2021-06-16 01:16:04,523][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Hosting environment: Development
+[2021-06-16 01:16:04,525][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Content root path: D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web
+[2021-06-16 01:16:04,609][thdId:4][reqId:1404850205924261888]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/test
+[2021-06-16 01:16:04,619][thdId:4][reqId:1404850205924261888]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Cache-Control:max-age=0
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgFMebiF476iTvg5SJ4VuDNnvY8PClsZAYsOrjFEtoUT3Aab0aqulN27rXJP3AT8kpnzIKghr%2BWEniawNotPxHVH7gfIjM2O%2FJORdlPv0X7RsT2PBuIeBfEWgmvYqfpxvU%2F8eqpx8ZTNtU%2FmofBxbx%2F
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 01:16:07,145][thdId:4][reqId:1404850205924261888]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+GET https://sandbox.sellingpartnerapi-na.amazon.com/sellers/v1/marketplaceParticipations
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIE3A464K27HO0-qC33Mh2gfs0VQBGv2AAxO717C1tzAyDfkvoUxVMZOpg0x8EDTuFJkG6YZ0dfe0QdXz7m0TYnWc_jlro6QgQjb5I6eUi3iQJ1SlnyIy5n2Q3q1B2PX3nBCluZE61nucWMRt5nEBW4cL6ije-TaQporFd-b74vlyIrM717i2jQVDfugSt_HI9bZZcfcfPsNZ381yl-wGUMQyGhlMnxtM7kSeTZ1ZobiNOLqTVKqw7yAcEBCC5Afg0RtSi0AyurBJwqvPMsG3NdY-ABcKFehA1KZ5GgMpr41ydTHhOxXkQ6DBn13EyIC4uanJ0sMXST50ziCficqJTVba
+x-amz-date:20210615T171607Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210615/us-east-1/execute-api/aws4_request, SignedHeaders=host;user-agent;x-amz-access-token;x-amz-date, Signature=94acbed5e3a84e0af8f8ec63652b7a25d34572018f1680da8a8d1e1f919bf5d7
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+[2021-06-16 01:16:11,218][thdId:4][reqId:1404850205924261888]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=OK
+Date:Tue, 15 Jun 2021 17:16:08 GMT
+Connection:keep-alive
+x-amzn-RequestId:5089117b-6092-4aa4-807e-fdb2d8f5d372
+x-amz-apigw-id:A-f9yGlsIAMFWow=
+X-Amzn-Trace-Id:Root=1-60c8e058-02bc91094b5e144f124ca2eb;Sampled=0
+Content-Type:application/json
+Content-Length:249
+
+{"payload":[{"marketplace":{"id":"ATVPDKIKX0DER","countryCode":"US","name":"Amazon.com","defaultCurrencyCode":"USD","defaultLanguageCode":"en_US","domainName":"www.amazon.com"},"participation":{"isParticipating":true,"hasSuspendedListings":false}}]}
+[2021-06-16 01:16:18,669][thdId:4][reqId:1404850205924261888]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：14063ms
+[2021-06-16 01:16:51,472][thdId:17][reqId:1404850402469347328]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/test1
+[2021-06-16 01:16:51,474][thdId:17][reqId:1404850402469347328]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgFMebiF476iTvg5SJ4VuDNnvY8PClsZAYsOrjFEtoUT3Aab0aqulN27rXJP3AT8kpnzIKghr%2BWEniawNotPxHVH7gfIjM2O%2FJORdlPv0X7RsT2PBuIeBfEWgmvYqfpxvU%2F8eqpx8ZTNtU%2FmofBxbx%2F
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 01:16:53,991][thdId:17][reqId:1404850402469347328]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+POST https://sandbox.sellingpartnerapi-na.amazon.com/feeds/2021-06-30/documents
+Content-Type:application/json
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIHkdICYyBESnc2zCN4xW2FDKNWLWNIJXtCDDWdZcu7j9U2RT0QnGLvzXMIPhGAb1bM7RQNveyaZJiUDdms5xJPDGk0EQn0zedaH5xubLNeW6H2HZObHQlaRmfmrGLG4LClsbnlllxBg6lnhmD9uS6GG2aJoBahgfx_8nIknfTxB9trDqsAAwZxi8ETwGjbBiP-sTccuuWx-jtfpgsfxTUvkrSrPNUhYQX0_zd35eelXpH8DAzKo-sqA_wyN4W0mnID0bX7t7cAsADIk1H5NlWLqRWedWO_P-8Y-TRL65Cv40IVf45eyKuCBnfzYCS_vzsCsbH4k3jWebF2hP9pXaSVHN
+x-amz-date:20210615T171653Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210615/us-east-1/execute-api/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-access-token;x-amz-date, Signature=b3d2b254b143163915c712c669045ded8038dac15a7531dba55438e475a3017a
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+{"contentType":"text/tab-separated-values; charset=UTF-8"}
+[2021-06-16 01:16:57,850][thdId:17][reqId:1404850402469347328]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=Forbidden
+Date:Tue, 15 Jun 2021 17:16:55 GMT
+Connection:keep-alive
+x-amzn-RequestId:63b3b916-f388-41e1-8132-198815077a8b
+x-amzn-ErrorType:AccessDeniedException
+x-amz-apigw-id:A-gFPF8-oAMFalQ=
+Content-Type:application/json
+Content-Length:141
+
+{
+  "errors": [
+    {
+      "message": "Access to requested resource is denied.",
+     "code": "Unauthorized",
+     "details": ""
+    }
+  ]
+}
+[2021-06-16 01:16:59,849][thdId:17][reqId:1404850402469347328]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：8383ms
+[2021-06-16 01:16:59,980][thdId:17][reqId:(null)]-[ERROR]-[AmzErp.Common.Mvc.Filters.ExceptionFilter][?]-- 拦截器拦截到未处理异常
+AmazonSDK.SDKException.ClientException: Access to requested resource is denied.
+   at AmazonSDK.AWSClient.RequestString[TRequest](TRequest requestModel, String accessToken) in D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmazonSDK\AWSClient.cs:line 113
+   at AmzErp.Web.Controllers.AmazonController.Test1() in D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web\Controllers\AmazonController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[2021-06-16 01:29:57,306][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Application started. Press Ctrl+C to shut down.
+[2021-06-16 01:29:57,321][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Hosting environment: Development
+[2021-06-16 01:29:57,323][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Content root path: D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web
+[2021-06-16 01:29:57,393][thdId:8][reqId:1404853698886107136]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /user/test
+[2021-06-16 01:29:57,403][thdId:8][reqId:1404853698886107136]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 01:29:57,576][thdId:8][reqId:1404853698886107136]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：183ms
+[2021-06-16 01:30:01,585][thdId:4][reqId:1404853716468629504]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/test1
+[2021-06-16 01:30:01,589][thdId:4][reqId:1404853716468629504]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CjNkbgHlCGBkFaqbBpssbYjsPsbvkgU5ppg9%2Bq1JP5M5pOd1TEzl0V6DomokIG3qT558qGgsIe72ffX%2FASP8ZzWOOraPNQ02Zjo0EbBz0uXGAQx5vH81eju85xSqHPmoqWLF1uQ51gm5HeFQCoCeRg9
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 01:30:03,557][thdId:4][reqId:1404853716468629504]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+POST https://sandbox.sellingpartnerapi-na.amazon.com/feeds/2021-06-30/documents?MarketplaceIds=A21TJRUUN4KGV
+Content-Type:application/json
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIOyGZ8N_TPPzTtqxfLGj-cuuSuSKShgGyzz9Nvcp0hKysJBSP-twU8rerfdH6Zd0FHGP_suwfsEy4oH-UcmJUgYsq5RKWfGSrMuExq0CBF3o7JjcgIL309kVA58YMmfgtqGYXyc6PrX_NKxcTVdcqeyw164SvXaEnQ3tl4-Bmn7I7rWq4mgNQCw0NP9Cgh-KHnj6lIAfYqi3T3u7qtzkPjVBGr8iJOb8P3z_FgtO21X6g7V6V9c2mLSmCG1eBe97NgejhE7r5RL4FyO3vZrXnbGKbTSzDe4wVRoQXGwCbGsqfZ-shYgaBNMYgLY5zXyRxSONzUGhaV6XNs36r6IeBYRB
+x-amz-date:20210615T173003Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210615/us-east-1/execute-api/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-access-token;x-amz-date, Signature=612ed994cd292f4411f3edb0c9858758b9071ec6d4dc9df388ae46873b8ac403
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+{"contentType":"text/tab-separated-values; charset=UTF-8"}
+[2021-06-16 01:30:06,112][thdId:4][reqId:1404853716468629504]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=Forbidden
+Date:Tue, 15 Jun 2021 17:30:05 GMT
+Connection:keep-alive
+x-amzn-RequestId:239e815f-8437-4bc9-a68a-ed9638364700
+x-amzn-ErrorType:AccessDeniedException
+x-amz-apigw-id:A-iAsFdVoAMFsfA=
+Content-Type:application/json
+Content-Length:141
+
+{
+  "errors": [
+    {
+      "message": "Access to requested resource is denied.",
+     "code": "Unauthorized",
+     "details": ""
+    }
+  ]
+}
+[2021-06-16 10:35:11,148][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Application started. Press Ctrl+C to shut down.
+[2021-06-16 10:35:11,165][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Hosting environment: Development
+[2021-06-16 10:35:11,166][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Content root path: D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web
+[2021-06-16 10:35:11,240][thdId:5][reqId:1404990910705434624]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /user/test
+[2021-06-16 10:35:11,246][thdId:5][reqId:1404990910705434624]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 10:35:11,411][thdId:5][reqId:1404990910705434624]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：171ms
+[2021-06-16 10:35:22,156][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/test1
+[2021-06-16 10:35:22,158][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgZTzWq%2F2CvkYyRODbJjYO1%2Fd1CD7jagBwsJeedlwX8sfT8Yj%2BEsBu3PMHv1wF4zIzsaaJ62PqKVa2y6MpxvjbErIFjzzhoKklwNU5ZKxK6Dcy6wbGOXTQj8mlX%2FWes0x0he8nh69VXEKv%2FQecbtosC
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 10:35:23,750][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+POST https://sandbox.sellingpartnerapi-na.amazon.com/feeds/2020-09-04/documents?MarketplaceIds=A21TJRUUN4KGV
+Content-Type:application/json
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIBwoHhlDIWa1dyd6nQzB9e8W0yxSdn3qmjHMLS4_2mhOIOfmusHapnxLbwH8XKcfUCNWRNzZBWW2iGfLJm4WSY4_qWVUX5CLwc8eS8dHuciE2zpE7TRrcHkMNtLbOUaNx8gMtRqyoK9M1zPduiPOzwCeKzbOYJuqpCSb-ukmnLoytpJcPxc0tZV_OofRYCt508lAoAmItiKMNPRggaqjPsSXTfoM3Zin3Qa5GuMHzKxGRyPiqsWuFv13ka8zQNSEjw27d0wgDLSDuEZ34St-oF3Lnz_aVASBUh7_ri_YYn3DnXVFpWYjhFm3e07jMNB0jSA9bCkoL1LbVAUmAp1t-2Fg
+x-amz-date:20210616T023523Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210616/us-east-1/execute-api/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-access-token;x-amz-date, Signature=4519a226e1238c7883a9189548cefcdbe85a0c5a7e92979d9e410d55692605d5
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+{"contentType":"text/tab-separated-values; charset=UTF-8"}
+[2021-06-16 10:35:25,502][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=Created
+Date:Wed, 16 Jun 2021 02:35:27 GMT
+Connection:keep-alive
+x-amzn-RequestId:b40c0dee-a5d9-4366-b18b-0f419c83b039
+x-amz-apigw-id:A_x5XGQjoAMF1Dw=
+X-Amzn-Trace-Id:Root=1-60c9636e-6762bf0e07ebb9406acfffe3;Sampled=0
+Content-Type:application/json
+Content-Length:358
+
+{"payload":{"feedDocumentId":"3d4e42b5-1d6e-44e8-a89c-2abfca0625bb","url":"https://d34o8swod1owfl.cloudfront.net/Feed_101__POST_PRODUCT_DATA_%2BKEY%3DFeed_101%2BMode%3DCBC%2BINITVEC%3D8f+6c+cc+56+0d+50+a2+d0+31+ec+80+be+f2+6a+1d+0a","encryptionDetails":{"standard":"AES","initializationVector":"8f 6c cc 56 0d 50 a2 d0 31 ec 80 be f2 6a 1d 0a","key":"key"}}}
+[2021-06-16 10:35:25,505][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+POST https://sandbox.sellingpartnerapi-na.amazon.com/feeds/2020-09-04/documents?MarketplaceIds=A21TJRUUN4KGV
+Content-Type:application/json
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIBwoHhlDIWa1dyd6nQzB9e8W0yxSdn3qmjHMLS4_2mhOIOfmusHapnxLbwH8XKcfUCNWRNzZBWW2iGfLJm4WSY4_qWVUX5CLwc8eS8dHuciE2zpE7TRrcHkMNtLbOUaNx8gMtRqyoK9M1zPduiPOzwCeKzbOYJuqpCSb-ukmnLoytpJcPxc0tZV_OofRYCt508lAoAmItiKMNPRggaqjPsSXTfoM3Zin3Qa5GuMHzKxGRyPiqsWuFv13ka8zQNSEjw27d0wgDLSDuEZ34St-oF3Lnz_aVASBUh7_ri_YYn3DnXVFpWYjhFm3e07jMNB0jSA9bCkoL1LbVAUmAp1t-2Fg
+x-amz-date:20210616T023523Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210616/us-east-1/execute-api/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-access-token;x-amz-date, Signature=4519a226e1238c7883a9189548cefcdbe85a0c5a7e92979d9e410d55692605d5
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+{"contentType":"text/tab-separated-values; charset=UTF-8"}
+[2021-06-16 10:35:26,719][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=Created
+Date:Wed, 16 Jun 2021 02:35:28 GMT
+Connection:keep-alive
+x-amzn-RequestId:1abfd795-6d8e-4b33-946a-8f2795f2768d
+x-amz-apigw-id:A_x5nHx9IAMFh5w=
+X-Amzn-Trace-Id:Root=1-60c96370-4618ea5a75b4248c3af02a63;Sampled=0
+Content-Type:application/json
+Content-Length:358
+
+{"payload":{"feedDocumentId":"3d4e42b5-1d6e-44e8-a89c-2abfca0625bb","url":"https://d34o8swod1owfl.cloudfront.net/Feed_101__POST_PRODUCT_DATA_%2BKEY%3DFeed_101%2BMode%3DCBC%2BINITVEC%3D8f+6c+cc+56+0d+50+a2+d0+31+ec+80+be+f2+6a+1d+0a","encryptionDetails":{"standard":"AES","initializationVector":"8f 6c cc 56 0d 50 a2 d0 31 ec 80 be f2 6a 1d 0a","key":"key"}}}
+[2021-06-16 10:35:26,722][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+POST https://sandbox.sellingpartnerapi-na.amazon.com/feeds/2020-09-04/documents?MarketplaceIds=A21TJRUUN4KGV
+Content-Type:application/json
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIBwoHhlDIWa1dyd6nQzB9e8W0yxSdn3qmjHMLS4_2mhOIOfmusHapnxLbwH8XKcfUCNWRNzZBWW2iGfLJm4WSY4_qWVUX5CLwc8eS8dHuciE2zpE7TRrcHkMNtLbOUaNx8gMtRqyoK9M1zPduiPOzwCeKzbOYJuqpCSb-ukmnLoytpJcPxc0tZV_OofRYCt508lAoAmItiKMNPRggaqjPsSXTfoM3Zin3Qa5GuMHzKxGRyPiqsWuFv13ka8zQNSEjw27d0wgDLSDuEZ34St-oF3Lnz_aVASBUh7_ri_YYn3DnXVFpWYjhFm3e07jMNB0jSA9bCkoL1LbVAUmAp1t-2Fg
+x-amz-date:20210616T023523Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210616/us-east-1/execute-api/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-access-token;x-amz-date, Signature=4519a226e1238c7883a9189548cefcdbe85a0c5a7e92979d9e410d55692605d5
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+{"contentType":"text/tab-separated-values; charset=UTF-8"}
+[2021-06-16 10:35:27,983][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=Created
+Date:Wed, 16 Jun 2021 02:35:30 GMT
+Connection:keep-alive
+x-amzn-RequestId:7df00ffa-5537-4b00-9643-21777927fb18
+x-amz-apigw-id:A_x50HORoAMFu3A=
+X-Amzn-Trace-Id:Root=1-60c96371-102ca08e4bb9fe46231b6689;Sampled=0
+Content-Type:application/json
+Content-Length:358
+
+{"payload":{"feedDocumentId":"3d4e42b5-1d6e-44e8-a89c-2abfca0625bb","url":"https://d34o8swod1owfl.cloudfront.net/Feed_101__POST_PRODUCT_DATA_%2BKEY%3DFeed_101%2BMode%3DCBC%2BINITVEC%3D8f+6c+cc+56+0d+50+a2+d0+31+ec+80+be+f2+6a+1d+0a","encryptionDetails":{"standard":"AES","initializationVector":"8f 6c cc 56 0d 50 a2 d0 31 ec 80 be f2 6a 1d 0a","key":"key"}}}
+[2021-06-16 10:35:27,985][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- https://sandbox.sellingpartnerapi-na.amazon.com//feeds/2020-09-04/documents retry 3 times faild
+[2021-06-16 10:35:27,987][thdId:8][reqId:1404990956490457088]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：5831ms
+[2021-06-16 21:14:12,711][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Application started. Press Ctrl+C to shut down.
+[2021-06-16 21:14:12,729][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Hosting environment: Development
+[2021-06-16 21:14:12,730][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Content root path: D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web
+[2021-06-16 21:14:12,805][thdId:8][reqId:1405151726884880384]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /user/test
+[2021-06-16 21:14:12,817][thdId:8][reqId:1405151726884880384]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgZTzWq%2F2CvkYyRODbJjYO1%2Fd1CD7jagBwsJeedlwX8sfT8Yj%2BEsBu3PMHv1wF4zIzsaaJ62PqKVa2y6MpxvjbErIFjzzhoKklwNU5ZKxK6Dcy6wbGOXTQj8mlX%2FWes0x0he8nh69VXEKv%2FQecbtosC
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 21:14:13,014][thdId:8][reqId:1405151726884880384]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：208ms
+[2021-06-16 21:14:16,474][thdId:4][reqId:1405151742273781760]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/test
+[2021-06-16 21:14:16,476][thdId:4][reqId:1405151742273781760]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgZTzWq%2F2CvkYyRODbJjYO1%2Fd1CD7jagBwsJeedlwX8sfT8Yj%2BEsBu3PMHv1wF4zIzsaaJ62PqKVa2y6MpxvjbErIFjzzhoKklwNU5ZKxK6Dcy6wbGOXTQj8mlX%2FWes0x0he8nh69VXEKv%2FQecbtosC
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 21:14:18,475][thdId:4][reqId:1405151742273781760]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+GET https://sandbox.sellingpartnerapi-na.amazon.com/sellers/v1/marketplaceParticipations
+host:sandbox.sellingpartnerapi-na.amazon.com
+user-agent:RestSharp/106.11.8.0
+x-amz-access-token:Atza|IwEBIK2AvRU-Am8412LUtuzjLcSBdfHlvDqwVMw3V3oaeHt779oQSX_QJ6btpNVuVFTjpwMVL3aIWxuAi3rgW_7BVfK4mCYmiAQ2mCDtw46sla1s0X_GokMG3gtvODfYqjRacW-EeUwrqfE29FrwGMs8viF0Lu7Li5tHa6AjVRI71oKs0BE4mDhyNz6VfNC_17iqX0nEtSTXRq-BSr45S6kYH6DujNLmt-gmR2QBJWhNVSg74djS5qtQpTCOKMKfukojfUAzgdslLAcxYQXAj9bRbdMv-u1AEnoj5T8LLo-Ow5mtwAExj1FKUDD_WUhSMg3n_VY3ASwdBCV640djDO3vj3l9
+x-amz-date:20210616T131418Z
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAYIFRNCDAKZ5WSM5A/20210616/us-east-1/execute-api/aws4_request, SignedHeaders=host;user-agent;x-amz-access-token;x-amz-date, Signature=f8e6bf5083a30505123e59ed09c9753ffb25c731bc6eb5474dfd92c3f64be830
+Accept:application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
+
+[2021-06-16 21:14:20,566][thdId:4][reqId:1405151742273781760]-[DEBUG]-[AmzErp.Web.Controllers.AmazonController][?]-- 
+StatusCode=OK
+Date:Wed, 16 Jun 2021 13:14:20 GMT
+Connection:keep-alive
+x-amzn-RequestId:1f9f50bd-dfaa-4387-8d0b-93e3d95e1f94
+x-amz-apigw-id:BBPexEJeIAMFh7Q=
+X-Amzn-Trace-Id:Root=1-60c9f92b-0950ac8d29cfba071f0f50df;Sampled=0
+Content-Type:application/json
+Content-Length:249
+
+{"payload":[{"marketplace":{"id":"ATVPDKIKX0DER","countryCode":"US","name":"Amazon.com","defaultCurrencyCode":"USD","defaultLanguageCode":"en_US","domainName":"www.amazon.com"},"participation":{"isParticipating":true,"hasSuspendedListings":false}}]}
+[2021-06-16 21:14:23,081][thdId:4][reqId:1405151742273781760]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：6607ms
+[2021-06-16 21:14:27,234][thdId:15][reqId:1405151787408687104]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/UpdateFile
+[2021-06-16 21:14:27,240][thdId:15][reqId:1405151787408687104]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgZTzWq%2F2CvkYyRODbJjYO1%2Fd1CD7jagBwsJeedlwX8sfT8Yj%2BEsBu3PMHv1wF4zIzsaaJ62PqKVa2y6MpxvjbErIFjzzhoKklwNU5ZKxK6Dcy6wbGOXTQj8mlX%2FWes0x0he8nh69VXEKv%2FQecbtosC
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 21:15:30,237][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Application started. Press Ctrl+C to shut down.
+[2021-06-16 21:15:30,252][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Hosting environment: Development
+[2021-06-16 21:15:30,254][thdId:1][reqId:(null)]-[INFO ]-[Microsoft.Hosting.Lifetime][?]-- Content root path: D:\Code\dotnet\AmzErp\src\dotnet\AmzErp\AmzErp.Web
+[2021-06-16 21:15:30,338][thdId:7][reqId:1405152052077658112]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- GET /amazon/UpdateFile
+[2021-06-16 21:15:30,344][thdId:7][reqId:1405152052077658112]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- 
+[header] Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[header] Accept-Encoding:gzip, deflate, br
+[header] Accept-Language:zh-CN,zh;q=0.9
+[header] Connection:keep-alive
+[header] Cookie:sessionId=CfDJ8Co%2BafaBoqVFidSeRZwM7CgZTzWq%2F2CvkYyRODbJjYO1%2Fd1CD7jagBwsJeedlwX8sfT8Yj%2BEsBu3PMHv1wF4zIzsaaJ62PqKVa2y6MpxvjbErIFjzzhoKklwNU5ZKxK6Dcy6wbGOXTQj8mlX%2FWes0x0he8nh69VXEKv%2FQecbtosC
+[header] Host:localhost:5000
+[header] User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+[header] Upgrade-Insecure-Requests:1
+[header] Sec-Fetch-Site:none
+[header] Sec-Fetch-Mode:navigate
+[header] Sec-Fetch-User:?1
+[header] Sec-Fetch-Dest:document
+
+[2021-06-16 21:15:33,774][thdId:7][reqId:1405152052077658112]-[DEBUG]-[AmzErp.Common.Mvc.Filters.RequestLoggerFilter][?]-- request time：3435ms
